@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+html * {
+    padding: 0;
+    margin: 0
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex { 
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex-1 { 
+    flex: 1 1 0%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-center {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.p-8 {
+    padding: 8px;
+}
+.pt-4 {
+    padding-top: 4px;
+}
+.pb-4 {
+    padding-bottom: 4px;
+}
+.pt-8 {
+    padding-top: 8px;
+}
+.pb-8 {
+    padding-bottom: 8px;
+}
+.pl-8 {
+    padding-left: 8px;
+}
+.pr-8 {
+    padding-right: 8px;
+}
+.p-16 {
+    padding: 16px;
+}
+.p-24 {
+    padding: 24px;
+}
+.pt-24 {
+    padding-top: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.m-8 {
+    margin: 8px;
+}
+.m-16 {
+    margin: 16px;
+}
+.m-24 {
+    margin: 24px;
+}
+.mt-8 {
+    margin-top: 8px;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mt-24 {
+    margin-top: 24px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.ml-24 {
+    margin-left: 24px;
+}
+.m-80 {
+    margin: 80px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ls-4 {
+    letter-spacing: 4px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.relative {
+    position: relative;
 }

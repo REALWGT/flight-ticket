@@ -1,0 +1,17 @@
+.header {
+    background-color: #FF5A60;
+    color: white;
+    padding: 15px 0;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    margin: 0 24px;
+    color:rgb(55, 124, 235);
+    padding: 0 4px;
+}

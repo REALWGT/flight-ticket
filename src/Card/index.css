@@ -1,0 +1,41 @@
+.card {
+  width: 450px;
+  min-height: 660px;
+  display: inline-block;
+}
+
+.card-half {
+  min-height: 330px;
+}
+
+.card-upper {
+  background-color: rgba(236, 54, 54, 0.107);
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  color: rgba(232, 77, 77, 0.698);
+}
+
+.card-lower {
+  background-color: rgba(232, 77, 77, 0.762);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.card-container {
+  padding: 24px;
+}
+
+.airline-container {
+  font-size: 30px;
+}
+
+.flight-container {
+  font-size: 30px;
+}
+
+.qr-container {
+  min-height: 250px;
+}
+.wallet-container {
+  height: 40px;
+}

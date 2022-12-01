@@ -1,0 +1,13 @@
+.header-item {
+    margin: 0 16px;
+    display: inline-block;
+}
+
+.header-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-item a:hover {
+    text-decoration: underline;
+}
